@@ -42,3 +42,7 @@ nav {
 #closeButton {
   display: none;
 }
+
+#avatarIcon {
+  max-width: 25px;
+}
