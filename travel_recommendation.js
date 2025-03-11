@@ -1,6 +1,6 @@
 const searchQuery = document.getElementById("searchInput");
 const reset = document.getElementById("resetButton");
-const submit = document.getElementById("submitButton");
+const submit = document.getElementById("searchButton");
 const close = document.getElementById("closeButton");
 const result = document.getElementById("resultDiv");
 const dropDown = document.getElementById("dropDown");
@@ -88,7 +88,3 @@ const closeDropDown = () => {
 };
 
 close.addEventListener("click", closeDropDown);
-
-// searchError;
-
-// currentTime;
