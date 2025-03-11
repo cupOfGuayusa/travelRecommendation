@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  float: left;
+}
+
+#navLinks {
+  margin: 0 auto;
+}
+
+#searchBar {
+  float: right;
+}
+
+#closeButton {
+  float: right;
+}
+
+.result-item {
+  max-width: 100%;
+  height: auto;
+  background-color: darkcyan;
+}
+
+.result-item img {
+  max-width: 100%;
+}
+
+#closeButton {
+  display: none;
+}
