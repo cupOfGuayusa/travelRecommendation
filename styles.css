@@ -120,10 +120,71 @@ button {
   color: white;
 }
 
-#avatarIcon {
-  max-width: 25px;
-}
-
 /* ABOUT PAGE STYLES */
 
+#aboutMain {
+  grid-template-columns: 0.25fr 0.75fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#aboutInfo {
+  grid-row: 1;
+  grid-column: 2 / 4;
+  color: white;
+  width: 75%;
+  padding: 5%;
+}
+
+.cardGroup {
+  grid-row: 2;
+  grid-column: 2 / 3;
+  display: inline-flex;
+  width: 100%;
+  color: white;
+}
+
+.card {
+  width: 100px;
+  padding: 20%;
+}
+
+.card i {
+  color: darkgrey;
+}
+
+.card h3 {
+  width: max-content;
+  height: 20%;
+}
+
 /* CONTACT PAGE STYLES */
+
+#contactMain {
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 1fr;
+  color: white;
+}
+
+#contactContainer {
+  padding: 5%;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+#contactForm button {
+  margin-top: 5%;
+}
+
+#contactForm input {
+  margin: 1% 0;
+}
+
+#contactForm textarea {
+  margin-top: 2%;
+}
