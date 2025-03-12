@@ -1,28 +1,66 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: darkcyan;
 }
 
 nav {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 15% 35% 50%;
+  grid-template-rows: 1fr;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5%;
+}
+
+button {
+  background-color: cyan;
+  color: darkcyan;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+}
+
+#branding {
+  width: 33.3%;
+  color: white;
 }
 
 #logo {
-  float: left;
-  max-width: 50px;
+  max-width: 15%;
+  min-width: 25px;
 }
 
 #navLinks {
   margin: 0 auto;
+  width: 33.3%;
 }
 
 #searchBar {
-  float: right;
+  width: 33.3%;
 }
 
 #searchIcon {
   max-width: 25px;
+  min-width: 20px;
+  width: 8%;
 }
 
 #closeButton {
@@ -30,19 +68,62 @@ nav {
 }
 
 .result-item {
-  max-width: 100%;
+  width: 80%;
   height: auto;
-  background-color: darkcyan;
+  background-color: cyan;
+  border-radius: 5%;
+  margin: 10% auto;
 }
 
 .result-item img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.result-item h3 {
+  margin: 2% 3%;
+}
+.result-item p {
+  margin: 2% 3%;
+  padding-bottom: 4%;
 }
 
 #closeButton {
   display: none;
 }
 
+#sideBar {
+  display: flex;
+  flex-direction: column;
+}
+
+#sideBar a {
+  padding: 2%;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+.verticalDivider {
+  width: 2px;
+  height: 150px;
+  background-color: white;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+#cta {
+  margin: 0 auto;
+  padding-top: 25%;
+  padding-left: 5%;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
 #avatarIcon {
   max-width: 25px;
 }
+
+/* ABOUT PAGE STYLES */
+
+/* CONTACT PAGE STYLES */
